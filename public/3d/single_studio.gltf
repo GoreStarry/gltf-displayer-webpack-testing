@@ -1,0 +1,91 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.4.40",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "single_studio",
+      "translation": [179.20208740234375, 57.929359436035156, 91.224853515625]
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Box003_2.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 104489,
+      "max": [270.5894775390625, 192.0706329345703, 339.1177673339844],
+      "min": [-583.5992431640625, -58.12752914428711, -414.6290588378906],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 104489,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 104489,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5125,
+      "count": 458850,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1253868,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1253868,
+      "byteOffset": 1253868
+    },
+    {
+      "buffer": 0,
+      "byteLength": 835912,
+      "byteOffset": 2507736
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1835400,
+      "byteOffset": 3343648
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 5179048,
+      "uri": "single_studio.bin"
+    }
+  ]
+}
